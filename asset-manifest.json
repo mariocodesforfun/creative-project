@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/creative-project/static/css/main.707d20d7.css",
+    "main.js": "/creative-project/static/js/main.4b930a08.js",
+    "static/js/453.ffcc1896.chunk.js": "/creative-project/static/js/453.ffcc1896.chunk.js",
+    "static/media/resistance_cover.jpeg": "/creative-project/static/media/resistance_cover.5669eb3915aa584028b7.jpeg",
+    "static/media/old.jpeg": "/creative-project/static/media/old.223e3596e1c8c54417a4.jpeg",
+    "static/media/modern.jpeg": "/creative-project/static/media/modern.07a63cbdaa2b354bc182.jpeg",
+    "index.html": "/creative-project/index.html",
+    "main.707d20d7.css.map": "/creative-project/static/css/main.707d20d7.css.map",
+    "main.4b930a08.js.map": "/creative-project/static/js/main.4b930a08.js.map",
+    "453.ffcc1896.chunk.js.map": "/creative-project/static/js/453.ffcc1896.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.707d20d7.css",
+    "static/js/main.4b930a08.js"
+  ]
+}
