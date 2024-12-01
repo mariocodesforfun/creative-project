@@ -2,7 +2,7 @@
   "name": "creative-project",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mariocodesforfun.github.io/mario-page",
+  "homepage": "https://mariocodesforfun.github.io/creative-project",
   "dependencies": {
     "@fontsource/roboto-mono": "^5.0.19",
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
