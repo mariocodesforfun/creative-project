@@ -21,8 +21,6 @@ function Header() {
         </div>
         <ul className={`header-nav ${menuOpen ? 'active' : ''}`}>
           <li><Link to="/home" onClick={closeMenu}>01 : Home</Link></li>
-          <li><Link to="/resume" onClick={closeMenu}>02 : Resume</Link></li>
-          <li><Link to="/blog" onClick={closeMenu}>03 : Blog</Link></li>
         </ul>
       </div>
     </nav>

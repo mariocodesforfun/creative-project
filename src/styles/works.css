@@ -1,7 +1,6 @@
-/* src/components/works/works.css */
-
+/* General Work Section */
 .work-section {
-  background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent background */
+  background-color: rgba(255, 255, 255, 0.9);
   padding: 40px;
   margin: 20px auto;
   max-width: 1200px;
@@ -16,7 +15,6 @@
   font-weight: 900;
   font-size: 40px;
   line-height: 50px;
-  color: #333;
   margin-bottom: 20px;
 }
 
@@ -27,19 +25,20 @@
   color: #555;
   max-width: 80%;
   margin: 0 auto;
+  text-align: center; /* Ensure text is centered */
 }
 
+/* Work Content (Images Layout) */
 .work-section .work-content {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  flex-direction: column; /* Stack images vertically */
+  align-items: center; /* Center images horizontally */
   margin-top: 40px;
-  flex-wrap: wrap;
 }
 
 .work-section .work-content .work-image {
-  width: 45%;
-  height: 300px;
+  width: 90%; /* Adjust width for centered images */
+  height: 1024px; /* Adjust the height for a larger display */
   background-size: cover;
   background-position: center;
   border-radius: 8px;
@@ -48,24 +47,38 @@
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  padding: 20px;
+  padding: 10px;
+  margin-bottom: 40px; /* Increased space between images */
 }
 
-/* src/components/works/works.css */
-
-/* Historical Resistance Image */
-.work-section .work-content .historical-image {
-  background-image: url('../old.jpeg');
+/* Description styling */
+.work-section .work-content .work-image p {
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #333;
+  margin-top: 10px; /* Space between image and description */
+  text-align: center; /* Center the text below each image */
 }
 
-/* Modern Resistance Image */
-.work-section .work-content .modern-image {
-  background-image: url('../modern.jpeg');
+/* Image backgrounds */
+.work-section .work-content .work-image:nth-child(1) {
+  background-image: url('../modest_proposal5.jpeg');
 }
 
+.work-section .work-content .work-image:nth-child(2) {
+  background-image: url('../modest_proposal6.jpeg');
+}
 
+.work-section .work-content .work-image:nth-child(3) {
+  background-image: url('../modest_proposal2.jpeg');
+}
 
+.work-section .work-content .work-image:nth-child(4) {
+  background-image: url('../modest_proposal1.jpeg');
+}
 
+/* Work Links */
 .work-section .work-links {
   margin-top: 30px;
   font-family: 'Roboto Mono', monospace;
@@ -84,28 +97,9 @@
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
-  .work-section {
-    padding: 20px;
-    max-width: 100%;
-  }
-
-  .work-section h2 {
-    font-size: 30px;
-    line-height: 35px;
-  }
-
-  .work-section p {
-    font-size: 1rem;
-    max-width: 95%;
-  }
-
-  .work-content {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .work-content .work-image {
-    width: 100%;
-    margin-bottom: 20px;
+  .work-section .work-content .work-image {
+    width: 100%; /* Full width for each image on smaller screens */
+    height: auto; /* Adjust height for responsiveness */
+    margin-bottom: 20px; /* Space between images */
   }
 }
