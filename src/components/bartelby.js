@@ -43,8 +43,8 @@ function Bartleby() {
       </div>
 
       <div className="work-links">
-        <a href="https://en.wikipedia.org/wiki/A_Modest_Proposal" target="_blank" rel="noopener noreferrer">
-          Learn more about *A Modest Proposal*
+        <a href="https://en.wikipedia.org/wiki/Bartleby,_the_Scrivener" target="_blank" rel="noopener noreferrer">
+          Learn more about *Bartleby, the Scrivener*
         </a>
       </div>
     </section>
