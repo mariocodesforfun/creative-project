@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/creative-project/static/css/main.695412a5.css",
-    "main.js": "/creative-project/static/js/main.d2994d81.js",
+    "main.js": "/creative-project/static/js/main.a1c39f1d.js",
     "static/js/453.ffcc1896.chunk.js": "/creative-project/static/js/453.ffcc1896.chunk.js",
     "static/media/resistance_cover.jpeg": "/creative-project/static/media/resistance_cover.5669eb3915aa584028b7.jpeg",
     "static/media/modest_proposal2.jpeg": "/creative-project/static/media/modest_proposal2.b72335ff492f336dcbc7.jpeg",
@@ -14,11 +14,11 @@
     "static/media/bartleby1.jpeg": "/creative-project/static/media/bartleby1.181d91b492c5765a9628.jpeg",
     "index.html": "/creative-project/index.html",
     "main.695412a5.css.map": "/creative-project/static/css/main.695412a5.css.map",
-    "main.d2994d81.js.map": "/creative-project/static/js/main.d2994d81.js.map",
+    "main.a1c39f1d.js.map": "/creative-project/static/js/main.a1c39f1d.js.map",
     "453.ffcc1896.chunk.js.map": "/creative-project/static/js/453.ffcc1896.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.695412a5.css",
-    "static/js/main.d2994d81.js"
+    "static/js/main.a1c39f1d.js"
   ]
 }
