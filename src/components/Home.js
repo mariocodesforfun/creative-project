@@ -49,16 +49,13 @@ function Home() {
             <li>Great works of literature that explore resistance</li>
             <li>Connecting historical resistance with modern resistance</li>
             <li>Offering images that represent resistance in both past and present</li>
-            <li>Exploring the ongoing relevance of resistance in society today</li>
           </ul>
         </div>
         <div className="about-links">
           <h2>Navigate</h2>
           <ul>
             <li><a href="#modest-proposal">A Modest Proposal</a></li>
-            <li>The Wretched of the Earth</li>
-            <li>The Confessions of Nat Turner</li>
-            <li>Bartleby, the Scrivener</li>
+            <li><a href="#bartleby">Bartleby, the Scrivener</a></li>
           </ul>
         </div>
       </section>

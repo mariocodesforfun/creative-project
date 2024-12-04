@@ -31,51 +31,35 @@
 /* Work Content (Images Layout) */
 .work-section .work-content {
   display: flex;
-  flex-direction: column; /* Stack images vertically */
-  align-items: center; /* Center images horizontally */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center align all items */
+  gap: 40px; /* Space between each work-image block */
   margin-top: 40px;
 }
 
 .work-section .work-content .work-image {
-  width: 90%; /* Adjust width for centered images */
-  height: 1024px; /* Adjust the height for a larger display */
-  background-size: cover;
-  background-position: center;
-  border-radius: 8px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-  color: white;
   display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  padding: 10px;
-  margin-bottom: 40px; /* Increased space between images */
+  flex-direction: column; /* Stack image and text vertically */
+  align-items: center; /* Center items horizontally */
+  gap: 10px; /* Space between image and text */
+  width: 90%; /* Adjust width for centered layout */
+  max-width: 1024px; /* Limit maximum width */
 }
 
-/* Description styling */
+.work-section .work-content .work-image img {
+  width: 100%; /* Responsive image width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Rounded corners for images */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
 .work-section .work-content .work-image p {
   font-family: 'Roboto', Helvetica, Arial, sans-serif;
   font-size: 1rem;
   line-height: 1.5rem;
   color: #333;
+  text-align: center; /* Center-align the text */
   margin-top: 10px; /* Space between image and description */
-  text-align: center; /* Center the text below each image */
-}
-
-/* Image backgrounds */
-.work-section .work-content .work-image:nth-child(1) {
-  background-image: url('../modest_proposal5.jpeg');
-}
-
-.work-section .work-content .work-image:nth-child(2) {
-  background-image: url('../modest_proposal6.jpeg');
-}
-
-.work-section .work-content .work-image:nth-child(3) {
-  background-image: url('../modest_proposal2.jpeg');
-}
-
-.work-section .work-content .work-image:nth-child(4) {
-  background-image: url('../modest_proposal1.jpeg');
 }
 
 /* Work Links */
@@ -95,11 +79,34 @@
   color: #007bff; /* Blue on hover */
 }
 
+.work-image-text {
+  font-family: 'Georgia', serif;  /* Elegant serif font for a classic touch */
+  font-size: 1.2rem;  /* Slightly larger text */
+  line-height: 1.8rem;  /* Increased line height for better readability */
+  color: #333;  /* Dark grey color for the text */
+  text-align: center;  /* Center-align the text */
+  margin-top: 20px;  /* Margin at the top to create space from other elements */
+  margin-bottom: 20px;  /* Space at the bottom */
+  padding: 20px 15px;  /* Added padding for comfort around the text */
+  max-width: 80%;  /* Limiting the width to avoid too wide text */
+  background-color: #f5f5f5;  /* Light grey background color for a soft feel */
+  border-left: 5px solid #007bff;  /* Left border for emphasis */
+  border-radius: 8px;  /* Rounded corners for the text box */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);  /* Soft shadow around the text */
+  font-style: italic;  /* Italics for the quote to distinguish it */
+}
+
+
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .work-section .work-content .work-image {
     width: 100%; /* Full width for each image on smaller screens */
-    height: auto; /* Adjust height for responsiveness */
-    margin-bottom: 20px; /* Space between images */
+    margin-bottom: 20px; /* Space between work blocks */
+  }
+
+  .work-section .work-content .work-image img {
+    max-width: 100%; /* Ensure image does not overflow */
+    height: auto; /* Maintain aspect ratio */
   }
 }
